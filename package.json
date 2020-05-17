@@ -1,7 +1,7 @@
 {
-  "name": "mylimits",
+  "name": "PersonalWeb",
   "version": "1.0.0",
-  "description": "My Limits",
+  "description": "PersonalWeb",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
