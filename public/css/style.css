@@ -1,0 +1,274 @@
+.pane{
+    min-width: 100vw;
+    min-height: 100vh;
+    border-bottom: none !important;
+    padding-top: 70px !important;
+}
+
+.vcenter {
+    margin: 0 !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.huge{
+    font-size: 3em!important;
+}
+
+.main{
+    margin-top: 0px !important;
+    width: 100vw;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.scrolldown{
+    margin: 0 !important;
+    position: absolute !important;
+    bottom: 20px !important;
+    left: calc(50% - 35px / 2) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+
+}
+
+#main-menu{
+    width: auto !important;
+    min-width: auto !important;
+    max-width: none !important;
+}
+
+
+
+.masthead.segment {
+    padding: 1em 0em;
+}
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.ui.vertical.stripe {
+    padding: 4em 0em;
+}
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+    padding: 0em;
+}
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+    display: none;
+}
+
+#passion{
+    display: inline-block;
+}
+
+.passion{
+    margin: 10px;
+}
+
+.semismall{
+    width: 110px;
+    height: auto;
+}
+
+.no-top-margin{
+    margin-top: 0px !important;
+}
+
+#formation-content,
+#experiences-content{
+    display: block;
+    z-index: 0;
+    left: 50%;
+    margin-top: 0px;
+
+    height: auto;
+}
+
+#formation-arrow,
+#experiences-arrow{
+    position: absolute;
+    left: 50%;
+    width: 7px;
+    height: 80%;
+    background-color: #297eb9;
+
+    -ms-transform: translate(-250%, 0%) !important;
+    transform: translate(-250%, 0%) !important;
+}
+
+#formation-arrow-top,
+#experiences-arrow-top{
+    position: absolute;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #297eb9;
+    -ms-transform: translate(-100%, -50%) !important;
+    transform: translate(-100%, -50%) !important;
+}
+
+.formation.data > .circle,
+.experiences.data > .circle{
+    height: 30px;
+    width: 30px;
+    background-color: #bec3c7;
+    border: 5px solid #364b5f;
+    border-radius: 50%;
+    z-index: 1;
+    margin: 5px 20px
+
+}
+
+.formation.data > .left,
+.experiences.data > .left{
+    width: calc(50% - 50px);
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.formation.data > .right,
+.experiences.data > .right{
+    width: calc(50% - 50px);
+    text-align: left;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.formation.data,
+.experiences.data{
+    margin-top: 40px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.right > h1,
+.left > h1{
+    color: #364b5f;
+}
+
+.right > .secondary,
+.left > .secondary {
+    position:relative;
+
+
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.date{
+    padding-top: 8px;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: #364b5f;
+
+}
+
+.right > h1, .left > h1,
+.right > p, .left > p{
+    margin-bottom: 5px;
+}
+
+.competences{
+    font-weight: bold;
+    color: #297eb9;
+
+}
+
+.list{
+    text-align: left;
+}
+
+.card > .image{
+    min-height: 250px;
+}
+
+#projets > div{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+        display: none !important;
+    }
+
+    .vcenter {
+        margin: auto !important;
+        position: static !important;
+        top: auto !important;
+        left: auto !important;
+        -ms-transform: translate(0%, 0%) !important;
+        transform: translate(0%, 0%) !important;
+    }
+
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+
+    .masthead h1.ui.header {
+        font-size: 30px  !important;
+    }
+    .masthead h2 {
+        font-size:  20px !important;
+    }
+
+    .right > h1, .left > h1 {
+        font-size: 20px;
+    }
+
+    .secondary > img{
+        display: none !important;
+    }
+}

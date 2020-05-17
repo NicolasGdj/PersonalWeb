@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/assets/semantic/semantic.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="/assets/semantic/semantic.js"></script>
+    <script src="/assets/js/jQWCloud.js"></script>
+    <title>Nicolas GUERROUDJ</title>
+</head>
+<body>
+<div id="index" class="ui inverted pane vertical masthead center aligned segment">
+    <div class="ui text container vcenter" >
+        <img id="profile" class="ui  circular image centered" src="/assets/images/profile.jpg" style="visibility: hidden">
+        <h1 class="ui huge inverted header">Nicolas GUERROUDJ</h1>
+        <h2>Etudiant en informatique à l'IUT d'Aix-en-Provence</h2>
+    </div>
+    <a  href="#presentation" class="scrolldown circular blue inverted ui icon button">
+        <i class="icon arrow down"></i>
+    </a>
+</div>
+<div class="ui inverted secondary pointing main menu blue">
+    <div id="main-menu" class="ui text container">
+        <div class="header item">
+            <a href="#index"> Nicolas GUERROUDJ </a>
+        </div>
+        <a href="#presentation" class="item active">Présentation</a>
+        <a href="#formation" class="item">Formations</a>
+        <a href="#experiences" class="item">Experiences</a>
+        <a href="#projets" class="item">Projets</a>
+
+    </div>
+</div>
+<div id="presentation" class="ui vertical pane center aligned segment">
+    <h1 class="ui huge header">Présentation</h1>
+
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="eight wide column">
+                    <h3 class="ui header">Qui suis-je ?</h3>
+                    <p>Je suis un alternant en deuxième année d'informatique à l'IUT d'Aix-en-Provence, qui travaille à SuperSonic Imagine en tant que Développeur logiciel junior.<br /> Passionné par l'informatique depuis mon plus jeune âge et plus particulièrement par le développement logiciel, j'ambitionne d'en faire mon métier.</p>
+                    <h3 class="ui header">Passions</h3>
+                    <div id="passion">
+                        <div class="passion ui semismall circular rotate reveal image">
+                            <img src="/assets/images/Animation.png" class="visible content">
+                            <img src="/assets/images/Animation-reveal.png" class="hidden content">
+                        </div>
+                        <div class="passion ui semismall circular rotate reveal image">
+                            <img src="/assets/images/Electronique.png" class="visible content">
+                            <img src="/assets/images/Electronique-reveal.png" class="hidden content">
+                        </div>
+                        <div class="passion ui semismall circular rotate reveal image">
+                            <img src="/assets/images/Programmation.png" class="visible content">
+                            <img src="/assets/images/Programmation-reveal.png" class="hidden content">
+                        </div>
+                        <div class="passion ui semismall circular rotate reveal image">
+                            <img src="/assets/images/Prestigitation.png" class="visible content">
+                            <img src="/assets/images/Prestigitation-reveal.png" class="hidden content">
+                        </div>
+                    </div>
+                </div>
+                <div class="six wide right floated column" >
+                    <h3 class="ui header">Points forts</h3>
+
+                    <div id="wordCloud" style="height: 300px; width: 300px; margin-left: auto; margin-right: auto" >
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>
+<div id="formation" class="ui vertical pane center aligned segment">
+    <h1 class="ui huge header">Formation</h1>
+    <div style="display: inline-flex !important;">
+        <img class="ui centered tiny image" src="/assets/images/Ingenieur.png">
+        <h2 class="centered aligned ui header vertically">Ingénieur</h2>
+    </div>
+    <div id="formation-content">
+        <div id="formation-arrow-top"></div>
+        <div id="formation-arrow"></div>
+
+        <div class="formation data">
+            <div class="left">
+                <h2 class="date">2019 à maintenant</h2>
+            </div>
+            <div class="circle"></div>
+            <div class="right">
+                <h1>Développeur Logiciel Junior - SuperSonic Imagine (Alternance)</h1>
+                <p>
+                    Création d'une interface graphique pour un échographe.<br>
+                    Développement d'une architeture modulaire.
+                </p>
+                <span class="competences">C++, Qt, QML, GitHub, Jira</span>
+            </div>
+        </div>
+
+        <div class="formation data">
+            <div class="left">
+                <h1>Développeur Java - Bénévolat & projets personnels</h1>
+                <p>
+                    Création d'extensions serveur pour un jeu vidéo (Minecraft),<br>
+                    Ecriture, lecture et analyse d'un cahier des charges,<br>
+                    Création de la structure logiciel,<br>
+                    Développement du programme, <br>
+                    Résolutions de tickets.
+                </p>
+                <span class="competences">Java 7/8, SQL, HeidiSQL, Google Drive, Trello</span>
+            </div>
+            <div class="circle"></div>
+            <div class="right">
+                <h2 class="date">2012 à 2020</h2>
+            </div>
+        </div>
+
+        <div class="formation data">
+            <div class="left">
+                <h2 class="date">2018</h2>
+            </div>
+            <div class="circle"></div>
+            <div class="right">
+                <h1>Employé Polyvalent - Spar, Commerce de proximité</h1>
+                <p>
+                    Réalisation d'un logiciel pour l'étiquetage,<br>
+                    Relation client (Caissier).
+                </p>
+                <span class="competences">Java 8, JavaFX</span>
+            </div>
+        </div>
+
+        <div class="formation data">
+            <div class="left">
+                <h1>Développeur SQF - Association Failywood-Gaming</h1>
+                <p>
+                    Apprentissage du SQF  (langage propre au jeu ARMA3),<br>
+                    Réalisation de divers script en SQF,<br>
+                    Modification de script SQF.<br>
+                </p>
+                <span class="competences">SQF, Turtoise SVN</span>
+            </div>
+            <div class="circle"></div>
+            <div class="right">
+                <h2 class="date">2015</h2>
+            </div>
+        </div>
+
+        <div class="formation data">
+            <div class="left">
+                <h2 class="date">2015</h2>
+            </div>
+            <div class="circle"></div>
+            <div class="right">
+                <h1>Développeur Mobile - Projet personnel</h1>
+                <p>
+                    Création d'un jeu mobile avec Unity,<br>
+                    Découverte du moteur de jeu Unity,<br>
+                    Création de script C#
+                </p>
+                <span class="competences">C#, Unity</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="experiences" class="ui vertical pane center aligned segment">
+    <h1 class="ui huge header">Expériences</h1>
+
+    <div id="experiences-content">
+        <div id="experiences-arrow-top"></div>
+        <div id="experiences-arrow"></div>
+
+        <div class="experiences data">
+
+            <div class="left">
+                <h1>IUT Informatique - Alternance</h1>
+                <div class="competences">C++, POO, UML, SQL, PL/SQL, PHP, Java, JavaScript, JQuery</div>
+                <div class="secondary">
+                    <img class="ui image tiny" src="/assets/images/gold-medal.png">
+                    <h3>Major de promotion</h3>
+                </div>
+            </div>
+            <div class="circle"></div>
+            <div class="right">
+                <h2 class="date">2018 à maintenant</h2>
+            </div>
+        </div>
+
+        <div class="experiences data">
+
+            <div class="left">
+                <h2 class="date">2020</h2>
+            </div>
+            <div class="circle"></div>
+
+            <div class="right">
+                <h1>MOOC L'Atelier RGPD - CNIL</h1>
+                <p>
+                    Attestation de suivi
+                </p>
+            </div>
+        </div>
+
+        <div class="experiences data">
+            <div class="left">
+                <h1>Baccalauréat Scientifique - Mention Bien</h1>
+                <p>
+                    Science de l'ingénieur option Informatique et Science du Numérique
+                </p>
+                <div class="competences">Java (Processing, Eclipse), C++ (Arduino)</div>
+                <div class="secondary">
+                    <img class="ui image tiny" src="/assets/images/trophy.png">
+                    <h3>Premier prix de l'IOT 2018</h3>
+                </div>
+            </div>
+            <div class="circle"></div>
+            <div class="right">
+                <h2 class="date">2018</h2>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="projets" class="ui vertical pane center aligned segment">
+    <h1 class="ui huge header">Projets</h1>
+    <div class="ui link cards">
+
+        <div class="card">
+            <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                    <div class="content">
+                        <div class="center">
+                            <button onclick="window.open('http://www.bombparty.nicolas.guerroudj.fr');" class="ui inverted button">Voir le site</button>
+                            <button onclick="window.open('//github.com/NicolasGdj/Bombparty');" class="ui inverted button">GitHub</button>
+                        </div>
+                    </div>
+                </div>
+                <img src="/assets/images/projets/bombparty.png">
+            </div>
+            <div class="content">
+                <div class="header">Bombparty</div>
+                <div class="meta">
+                    <a>Application Web</a>
+                </div>
+                <div class="description">
+                    Jeu multijoueur où chaque participant doit trouver un mot contenant une suite de lettres prédéfinie.
+                </div>
+            </div>
+            <div class="extra content">
+                <span class="right floated">Réalisé en 2020</span>
+                <span class="left floated">
+                    <div class="ui label">NodeJS</div>
+                    <div class="ui label">Socket IO</div>
+                </span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                    <div class="content">
+                        <div class="center">
+                            <button onclick="window.open('http://mylimits.nicolas.guerroudj.fr');" class="ui inverted button">Voir le site</button>
+                            <button onclick="window.open('//github.com/NicolasGdj/MyLimits');" class="ui inverted button">GitHub</button>
+                        </div>
+                    </div>
+                </div>
+                <img src="/assets/images/projets/MyLimits.png">
+            </div>
+            <div class="content">
+                <div class="header">MyLimits</div>
+                <div class="meta">
+                    <a>Application Web</a>
+                </div>
+                <div class="description">
+                    Carte de la France présentant la limitation de 100 km autour de sa position.
+                </div>
+            </div>
+            <div class="extra content">
+                <span class="right floated">Réalisé en 2020</span>
+                <span class="left floated">
+                    <div class="ui label">NodeJS</div>
+                    <div class="ui label">Google API</div>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                    <div class="content">
+                        <div class="center">
+                            <!--
+                            <button onclick="window.open('https://guerroudj.fr:9000');" class="ui inverted button">Voir le site</button>
+                            <button onclick="window.open('//github.com/NicolasGdj/drawit');" class="ui inverted button">GitHub</button>
+                            -->
+                            <button disabled class="ui inverted button">Bientôt disponible...</button>
+
+                        </div>
+                    </div>
+                </div>
+                <img src="/assets/images/projets/drawit.png">
+            </div>
+            <div class="content">
+                <div class="header">Draw It</div>
+                <div class="meta">
+                    <a>Application Web</a>
+                </div>
+                <div class="description">
+                    Jeu multijoueur où chaque participant doit trouver le mot dessiné par un autre participant.
+                </div>
+            </div>
+            <div class="extra content">
+                <span class="right floated">Réalisé en 2020</span>
+                <span class="left floated">
+                    <div class="ui label">NodeJS</div>
+                    <div class="ui label">Socket IO</div>
+                </span>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--<div id="competences" class="ui vertical pane center aligned segment">
+    <h1 class="ui huge header">Compétences</h1>
+    <div style="display: flex">
+        <div class="ui  aligned animated list">
+            <h3>Développement Logiciel</h3>
+            <div class="item">
+                <img class="ui avatar image" src="data:image/jpeg;base64,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">
+                <div class="content">
+                    <div class="header">Java</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://img2.freepng.fr/20180408/pew/kisspng-the-c-programming-language-computer-icons-comput-programming-5acadc2dec0be9.0824244915232440779669.jpg">
+                <div class="content">
+                    <div class="header">C++</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui  aligned animated list">
+            <h3>Développement WEB</h3>
+            <div class="item">
+                <img class="ui avatar image" src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-php-software-develop-command-language-512.png">
+                <div class="content">
+                    <div class="header">PHP</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png">
+                <div class="content">
+                    <div class="header">JavaScript</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://i2.wp.com/www.portfo-lio.net/wp-content/uploads/2015/10/PORTFO-LIO-logo-jQuery.jpg?ssl=1">
+                <div class="content">
+                    <div class="header">jQuery</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://f0.pngfuel.com/png/306/37/node-js-logo-png-clip-art.png">
+                <div class="content">
+                    <div class="header">NodeJS</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png">
+                <div class="content">
+                    <div class="header">CSS</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="data:image/png;base64,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">
+                <div class="content">
+                    <div class="header">HTML</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui  aligned animated list">
+            <h3>Framework</h3>
+            <div class="item">
+                <img class="ui avatar image" src="https://blog.ippon.fr/content/images/2017/05/junit5-logo.png">
+                <div class="content">
+                    <div class="header">jUnit</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://blog.engineering.publicissapient.fr/wp-content/uploads/2014/09/javafx_logo.jpg">
+                <div class="content">
+                    <div class="header">JavaFX</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://media-exp1.licdn.com/dms/image/C4D0BAQFopxfUB5xTZw/company-logo_200_200/0?e=2159024400&v=beta&t=af-X8cgb9ZecB_Z9bcskiikUkdLlEwLx4l00q2IDQj4">
+                <div class="content">
+                    <div class="header">Qt</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://cdn.worldvectorlogo.com/logos/symfony.svg">
+                <div class="content">
+                    <div class="header">Symfony</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://pbs.twimg.com/profile_images/736902911993774080/p5C2_6xM_400x400.jpg">
+                <div class="content">
+                    <div class="header">CakePHP</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="data:image/png;base64,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">
+                <div class="content">
+                    <div class="header">Bootstrap</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui  aligned animated list">
+            <h3>Framework</h3>
+            <div class="item">
+                <img class="ui avatar image" src="https://blog.ippon.fr/content/images/2017/05/junit5-logo.png">
+                <div class="content">
+                    <div class="header">jUnit</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://blog.engineering.publicissapient.fr/wp-content/uploads/2014/09/javafx_logo.jpg">
+                <div class="content">
+                    <div class="header">JavaFX</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://media-exp1.licdn.com/dms/image/C4D0BAQFopxfUB5xTZw/company-logo_200_200/0?e=2159024400&v=beta&t=af-X8cgb9ZecB_Z9bcskiikUkdLlEwLx4l00q2IDQj4">
+                <div class="content">
+                    <div class="header">Qt</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://cdn.worldvectorlogo.com/logos/symfony.svg">
+                <div class="content">
+                    <div class="header">Symfony</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="https://pbs.twimg.com/profile_images/736902911993774080/p5C2_6xM_400x400.jpg">
+                <div class="content">
+                    <div class="header">CakePHP</div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="ui avatar image" src="data:image/png;base64,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">
+                <div class="content">
+                    <div class="header">Bootstrap</div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div> -->
+
+<script>
+    $(document)
+        .ready(function() {
+
+            $('#profile').transition('slide up');
+
+            $('.main.menu').visibility({
+                type: 'fixed'
+            });
+            $('.overlay').visibility({
+                type: 'fixed',
+                offset: 80
+            });
+
+
+            $('.formation.data, .experiences.data').visibility({
+                onTopVisible: function(calculations) {
+                    $(this).transition( {
+                            animation: 'fade down in',
+                            duration: 800,
+                            interval: 200
+                    })
+                }
+            });
+
+            $('.card').visibility({
+                onTopVisible: function(calculations) {
+                    $(this).transition(
+                        {
+                            animation: 'zoom in',
+                            duration: 800,
+                            interval: 200
+                        })
+                }
+            });
+
+            $('.cards .image').dimmer({
+                on: 'hover'
+            });
+
+            $('.image').visibility({
+                type: 'image',
+                transition: 'vertical flip in',
+                duration: 500
+            });
+
+            $('.scrolldown')
+                .transition('set looping')
+                .transition('bounce', '2000ms')
+            ;
+            $("#wordCloud").jQWCloud({
+                words: [
+                    {word: 'Rigoureux', weight: 120, color: '#2185d0'},
+                    {word: 'Passionné', weight: 60},
+                    {word: 'Autodidacte', weight: 50},
+                    {word: 'Dynamique', weight: 70},
+                    {word: 'Motivé', weight: 40},
+                    {word: 'Ponctuel', weight: 30},
+                    {word: 'Sociable', weight: 45},
+                    {word: 'Coopératif', weight: 30},
+                    {word: 'Rigoureux', weight: 120/2},
+                    {word: 'Passionné', weight: 60/2},
+                    {word: 'Autodidacte', weight: 50/2},
+                    {word: 'Dynamique', weight: 70/2},
+                    {word: 'Motivé', weight: 40/2},
+                    {word: 'Ponctuel', weight: 30/2},
+                    {word: 'Sociable', weight: 45/2},
+                    {word: 'Coopératif', weight: 30/4},
+                    {word: 'Rigoureux', weight: 120/4},
+                    {word: 'Passionné', weight: 60/4},
+                    {word: 'Autodidacte', weight: 50/4},
+                    {word: 'Dynamique', weight: 70/4},
+                    {word: 'Motivé', weight: 40/4},
+                    {word: 'Ponctuel', weight: 30/4},
+                    {word: 'Sociable', weight: 45/4},
+                    {word: 'Coopératif', weight: 30/4},
+                    {word: 'Ponctuel', weight: 30/8},
+                    {word: 'Sociable', weight: 45/8},
+                    {word: 'Coopératif', weight: 30/8},
+                    {word: 'Rigoureux', weight: 120/8},
+                    {word: 'Passionné', weight: 60/8},
+                    {word: 'Autodidacte', weight: 50/8},
+                    {word: 'Dynamique', weight: 70/8},
+                    {word: 'Motivé', weight: 40/8},
+                    {word: 'Ponctuel', weight: 30/8},
+                    {word: 'Sociable', weight: 45/8},
+                    {word: 'Coopératif', weight: 30/8},
+                ],
+
+                // title
+                title: 'Points forts',
+
+                // min/max font size
+                minFont: 10,
+                maxFont: 50,
+
+                // font offset
+                fontOffset: 0.75,
+
+                // shows the algorithm of creating the word cloud
+                showSpaceDIV: false,
+
+                // Enables the vertical alignment of words
+                verticalEnabled: true,
+
+                // color
+                cloud_color: null,
+
+                // font family
+                cloud_font_family: null,
+
+                // color of covering divs
+                spaceDIVColor: 'blue',
+
+                // left padding of words
+                padding_left: '2',
+
+                // classes with space to be applied on each word
+                word_common_classes: null
+            });
+            $("a[href*='#']:not([href='#'])").click(function() {
+                if (
+                    location.hostname == this.hostname
+                    && this.pathname.replace(/^\//, "") == location.pathname.replace(/^\//, "")
+                ) {
+                    var anchor = $(this.hash);
+                    anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) + "]");
+                    if (anchor.length) {
+                        $("html, body").animate({scrollTop: anchor.offset().top}, 1500);
+                    }
+                }
+            });
+
+
+
+            let topMenu = $("#main-menu"),
+                topMenuHeight = topMenu.outerHeight()+15,
+                menuItems = topMenu.find("a"),
+                scrollItems = menuItems.map(function(){
+                    var item = $($(this).attr("href"));
+                    if (item.length) { return item; }
+                });
+
+            $(window).scroll(function(){
+                var fromTop = $(this).scrollTop()+topMenuHeight;
+
+                var cur = scrollItems.map(function(){
+                    if ($(this).offset().top < fromTop)
+                        return this;
+                });
+                cur = cur[cur.length-1];
+                var id = cur && cur.length ? cur[0].id : "";
+
+                menuItems.removeClass("active");
+                menuItems.filter("[href='#"+id+"']").addClass("active");
+            });
+        })
+    ;
+
+
+</script>
+
+</body>
+</html>
